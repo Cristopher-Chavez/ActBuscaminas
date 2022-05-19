@@ -6,7 +6,16 @@
 body{
     background-image: url("../imagenes/anime.jpg");
     background-size: cover;
-    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+}
+
+#juego{
+    display: none;
+}
+
+#tablero{
+    width: auto;
+    height: auto;
 }
 
 #div{
@@ -18,4 +27,9 @@ body{
     color: white;
     text-align: center;
     overflow: auto;
+}
+
+#celdas{
+    width: 30px;
+    height: 30px;
 }
